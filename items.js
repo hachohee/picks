@@ -125,7 +125,7 @@ window.PICKS_DATA = {
       "tone": "sky",
       "quote": "가시 안 발라줘도 돼서 육아템. 촉촉하고 맛있어서 쟁여놓고 먹어요.",
       "price": "19,700원",
-      "link": null,
+      "link": "https://link.coupang.com/a/iSd1jyhjG0",
       "blog": null,
       "opens": null,
       "note": "2탄 · 밥상 치트키"
@@ -144,7 +144,7 @@ window.PICKS_DATA = {
       "tone": "cream",
       "quote": "반찬 없을 때 최고. 굽고 삶고 찌고, 닭국 닭죽 닭구이 다 돼요.",
       "price": "12,160원",
-      "link": null,
+      "link": "https://link.coupang.com/a/iSd5erwhrM",
       "blog": null,
       "opens": null,
       "note": "2탄 · 밥상 치트키"
@@ -163,7 +163,7 @@ window.PICKS_DATA = {
       "tone": "sage",
       "quote": "여기저기 다 써요. 이걸로 양배추 털기, 닭다리살 구이, 볶음밥은 완밥.",
       "price": "8,270원",
-      "link": null,
+      "link": "https://link.coupang.com/a/iSd8dbRVf2",
       "blog": null,
       "opens": null,
       "note": "품절 시 판매 중인 대체 상품으로 안내"
@@ -182,7 +182,7 @@ window.PICKS_DATA = {
       "tone": "blush",
       "quote": "병 딸기잼은 위생 걱정인데, 한 팩씩 쓰니까 깔끔해요. 괜히 더 먹어서 가책 느낄 일도 없고요.",
       "price": "9,370원",
-      "link": null,
+      "link": "https://link.coupang.com/a/iSd96I2bqS",
       "blog": null,
       "opens": null,
       "note": "2탄 · 밥상 치트키"
@@ -201,7 +201,7 @@ window.PICKS_DATA = {
       "tone": "peach",
       "quote": "마시멜로 살도 덜 찌고 초코는 진해요. 작고 귀여워서 주머니템.",
       "price": "8,900원",
-      "link": null,
+      "link": "https://link.coupang.com/a/iSeiKvtos0",
       "blog": null,
       "opens": null,
       "note": "2탄 · 밥상 치트키"
@@ -220,7 +220,7 @@ window.PICKS_DATA = {
       "tone": "cream",
       "quote": "초코과자 중에 제일 맛있어요. 좀 미안하지만 초코송이 이김. 찐하고 든든해요.",
       "price": "26,350원",
-      "link": null,
+      "link": "https://link.coupang.com/a/iSeooRAGqa",
       "blog": null,
       "opens": null,
       "note": "3탄 · 겨울 힐링템"
@@ -238,7 +238,7 @@ window.PICKS_DATA = {
       "tone": "sky",
       "quote": "추운 겨울 내 마음 안식템. 달달하고 고소하고 차분해져요. 저당이라 안심.",
       "price": null,
-      "link": null,
+      "link": "https://link.coupang.com/a/iSemXKAdJR",
       "blog": null,
       "opens": null,
       "note": "3탄 · 겨울 힐링템"
@@ -256,7 +256,7 @@ window.PICKS_DATA = {
       "tone": "sage",
       "quote": "올리브유 비싼데 이건 가성비 좋아서 안 아끼고 써요. 건강에도 좋다니 안심.",
       "price": null,
-      "link": null,
+      "link": "https://link.coupang.com/a/iSeDbzIr2i",
       "blog": null,
       "opens": null,
       "note": "4탄 · 주방 꿀템"
@@ -275,7 +275,7 @@ window.PICKS_DATA = {
       "tone": "blush",
       "quote": "속눈썹 연장하면 원래 속눈썹이 빠지는데, 그런 부작용 없이 어디서든 탈부착. 뭉침 없이 균일해서 무난하고 좋아요.",
       "price": "48,900원",
-      "link": null,
+      "link": "https://link.coupang.com/a/iSeAFfKxSS",
       "blog": null,
       "opens": null,
       "note": "4탄 · 파우치·뷰티 꿀템"
@@ -294,7 +294,7 @@ window.PICKS_DATA = {
       "tone": "peach",
       "quote": "깔끔녀 필수템. 파우치에 넣어 다니면 최고, 해외여행에서도 잘 써요.",
       "price": "8,820원",
-      "link": null,
+      "link": "https://link.coupang.com/a/iSeBY9zUtM",
       "blog": null,
       "opens": null,
       "note": "4탄 · 파우치 꿀템"
@@ -313,7 +313,7 @@ window.PICKS_DATA = {
       "tone": "cream",
       "quote": "심 따로 살 필요가 없고, 아이가 만져도 안 위험해요. 심이 굴러다녀서 다칠 일도 없고요.",
       "price": "18,310원",
-      "link": null,
+      "link": "https://link.coupang.com/a/iSepzrvBsW",
       "blog": null,
       "opens": null,
       "note": "4탄 · 문구 꿀템"
@@ -331,7 +331,7 @@ window.PICKS_DATA = {
       "tone": "mint",
       "quote": "자고 일어날 때 이불 밀리면 스트레스인데 구원템. 막 뒹굴어도 걱정 없고, 빨아서 말려 깔면 뽀송해요.",
       "price": "22,320원",
-      "link": null,
+      "link": "https://link.coupang.com/a/iSelJo2zmK",
       "blog": null,
       "opens": null,
       "note": "3탄 · 침대 힐링템"
@@ -349,7 +349,7 @@ window.PICKS_DATA = {
       "tone": "blush",
       "quote": "안마의자에 있으면 놀아달라는 아들 피해서, 침대에서 엉덩이 밑에 깔고 누우면 극락. 허벅지 마사지 최고.",
       "price": null,
-      "link": null,
+      "link": "https://link.coupang.com/a/iSekzRzr7Q",
       "blog": null,
       "opens": null,
       "note": "3탄 · 침대 힐링템"
