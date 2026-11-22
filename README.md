@@ -8,11 +8,12 @@
 - `items.js` — `build.py`가 items.json에서 자동 생성 (직접 고치지 마세요)
 - `build.py` — `python3 build.py` 로 items.js 재생성
 - `.nojekyll` — GitHub Pages 그대로 서빙
+- `og.html` / `og.png` — 카톡·인스타 공유 미리보기 이미지(1200×630)
 
 ## 새 상품 / 파트너스 링크 추가
 1. `items.json`의 `items` 배열에 항목 추가(또는 기존 항목의 `link` 채우기)
    - `link`: `https://link.coupang.com/a/...` (있으면 '쿠팡에서 보기' 활성화)
-   - `opens`: 링크가 없을 때 표시할 공개 예정일 (예: `11/23(월)`)
+   - `opens`: (선택) 링크가 없을 때 버튼에 붙일 날짜. 비우면 "곧 링크 연결 중"으로 표시
    - `category`: `living` | `table` | `care`
 2. `python3 build.py`
 3. commit & push → GitHub Pages 자동 반영

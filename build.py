@@ -23,5 +23,5 @@ cats = {}
 for it in data["items"]:
     cats[it["category"]] = cats.get(it["category"], 0) + 1
 live = sum(1 for it in data["items"] if it.get("link"))
-print(f"items: {len(data['items'])} | 바로 구매 {live} | 순차 공개 {len(data['items']) - live}")
+print(f"items: {len(data['items'])} | 바로 구매 {live} | 링크 준비 중 {len(data['items']) - live}")
 print("categories:", cats)

@@ -11,11 +11,6 @@ window.PICKS_DATA = {
         "label": "네이버 블로그",
         "emoji": "🟢",
         "url": "https://blog.naver.com/hachohee"
-      },
-      {
-        "label": "티스토리",
-        "emoji": "🟠",
-        "url": "https://hotcho.tistory.com"
       }
     ],
     "disclosure": "이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
@@ -132,7 +127,7 @@ window.PICKS_DATA = {
       "price": "19,700원",
       "link": null,
       "blog": null,
-      "opens": "11/23(월)",
+      "opens": null,
       "note": "2탄 · 밥상 치트키"
     },
     {
@@ -151,7 +146,7 @@ window.PICKS_DATA = {
       "price": "12,160원",
       "link": null,
       "blog": null,
-      "opens": "11/23(월)",
+      "opens": null,
       "note": "2탄 · 밥상 치트키"
     },
     {
@@ -170,7 +165,7 @@ window.PICKS_DATA = {
       "price": "8,270원",
       "link": null,
       "blog": null,
-      "opens": "11/23(월)",
+      "opens": null,
       "note": "품절 시 판매 중인 대체 상품으로 안내"
     },
     {
@@ -189,7 +184,7 @@ window.PICKS_DATA = {
       "price": "9,370원",
       "link": null,
       "blog": null,
-      "opens": "11/23(월)",
+      "opens": null,
       "note": "2탄 · 밥상 치트키"
     },
     {
@@ -208,7 +203,7 @@ window.PICKS_DATA = {
       "price": "8,900원",
       "link": null,
       "blog": null,
-      "opens": "11/23(월)",
+      "opens": null,
       "note": "2탄 · 밥상 치트키"
     },
     {
@@ -227,7 +222,7 @@ window.PICKS_DATA = {
       "price": "26,350원",
       "link": null,
       "blog": null,
-      "opens": "11/24(화)",
+      "opens": null,
       "note": "3탄 · 겨울 힐링템"
     },
     {
@@ -245,7 +240,7 @@ window.PICKS_DATA = {
       "price": null,
       "link": null,
       "blog": null,
-      "opens": "11/24(화)",
+      "opens": null,
       "note": "3탄 · 겨울 힐링템"
     },
     {
@@ -263,7 +258,7 @@ window.PICKS_DATA = {
       "price": null,
       "link": null,
       "blog": null,
-      "opens": "11/25(수)",
+      "opens": null,
       "note": "4탄 · 주방 꿀템"
     },
     {
@@ -282,7 +277,7 @@ window.PICKS_DATA = {
       "price": "48,900원",
       "link": null,
       "blog": null,
-      "opens": "11/25(수)",
+      "opens": null,
       "note": "4탄 · 파우치·뷰티 꿀템"
     },
     {
@@ -301,7 +296,7 @@ window.PICKS_DATA = {
       "price": "8,820원",
       "link": null,
       "blog": null,
-      "opens": "11/25(수)",
+      "opens": null,
       "note": "4탄 · 파우치 꿀템"
     },
     {
@@ -320,7 +315,7 @@ window.PICKS_DATA = {
       "price": "18,310원",
       "link": null,
       "blog": null,
-      "opens": "11/25(수)",
+      "opens": null,
       "note": "4탄 · 문구 꿀템"
     },
     {
@@ -338,7 +333,7 @@ window.PICKS_DATA = {
       "price": "22,320원",
       "link": null,
       "blog": null,
-      "opens": "11/24(화)",
+      "opens": null,
       "note": "3탄 · 침대 힐링템"
     },
     {
@@ -356,7 +351,7 @@ window.PICKS_DATA = {
       "price": null,
       "link": null,
       "blog": null,
-      "opens": "11/24(화)",
+      "opens": null,
       "note": "3탄 · 침대 힐링템"
     }
   ]
