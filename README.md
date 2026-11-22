@@ -18,6 +18,9 @@
 2. `python3 build.py`
 3. commit & push → GitHub Pages 자동 반영
 
+링크만 채울 때는 더 간단합니다:
+`python3 update_links.py 16 https://link.coupang.com/a/xxxx https://blog.naver.com/hachohee/123`
+
 ## 프로필 바꾸기
 `items.json`의 `site`에서 `brand`(이름), `account`(핸들), `badge`, `title`, `intro` 수정.
 
