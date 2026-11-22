@@ -1,14 +1,15 @@
 {
   "site": {
-    "account": "@jibsooni.box",
     "brand": "집순이보물창고",
-    "badge": "살림 노트 · 찐템 큐레이션",
-    "title": "직접 써 보고 살아남은 찐템 모음집 🛒",
-    "intro": "광고 문구 말고, 내 돈 주고 사서 쓴 것만. 살림 · 밥상 · 힐링 17가지.",
+    "account": "@jibsooni.box",
+    "avatar": "assets/profile.png",
+    "intro": "내 돈 주고 사서 쓴 것만 · 살림·밥상·힐링 17개",
+    "guide": "👇 아래에서 번호나 사진 보고 바로 찾아보세요 👇",
+    "searchPlaceholder": "상품 이름이나 번호로 검색해 보세요 (예: 01, 행주)",
     "links": [
       {
-        "label": "인스타그램 @jibsooni.box",
-        "emoji": "📦",
+        "label": "인스타그램",
+        "emoji": "📷",
         "url": "https://www.instagram.com/jibsooni.box/"
       }
     ],
@@ -16,359 +17,198 @@
     "updated": "2026-11-22"
   },
   "categories": [
-    {
-      "id": "all",
-      "label": "전체"
-    },
-    {
-      "id": "living",
-      "label": "살림·정리"
-    },
-    {
-      "id": "table",
-      "label": "밥상·간식"
-    },
-    {
-      "id": "care",
-      "label": "힐링·뷰티·꿀템"
-    }
+    { "id": "all", "label": "전체" },
+    { "id": "living", "label": "살림·정리" },
+    { "id": "table", "label": "밥상·간식" },
+    { "id": "care", "label": "힐링·뷰티·꿀템" }
   ],
   "items": [
     {
-      "id": 2,
-      "name": "루시아이 빈틈제로 길이조절 투명 팬트리 정리함",
+      "num": 1,
+      "name": "루시아이 팬트리 정리함",
       "option": "화이트(손잡이 대형)",
       "category": "living",
-      "tags": [
-        "주방·옷장 겸용",
-        "빈틈제로",
-        "길이조절"
-      ],
-      "emoji": "🧺",
-      "tone": "cream",
-      "quote": "주방 서랍장 정리 굿, 옷장 정리 굿, 공간 활용 굿. 깔끔해서 버리는 공간이 없어요.",
+      "quote": "서랍·옷장에 빈틈 없이 딱 맞춰지는 투명 정리함.",
       "price": "14,850원",
+      "image": "assets/p01.jpg",
       "link": "https://link.coupang.com/a/iSb07OZe1s",
-      "blog": "https://blog.naver.com/hachohee/224486750426",
-      "opens": null,
-      "note": null,
-      "blogUrl": ""
+      "keywords": ["빈틈제로", "투명", "수납", "주방", "옷장", "정리", "팬트리"]
     },
     {
-      "id": 8,
-      "name": "플랜와이 튼튼한 적층형 길이조절 메쉬 옷장 레이어드 선반",
+      "num": 2,
+      "name": "플랜와이 메쉬 선반",
       "option": "화이트 (1~8번 옵션)",
       "category": "living",
-      "tags": [
-        "적층",
-        "길이조절",
-        "튼튼함"
-      ],
-      "emoji": "🗄️",
-      "tone": "sage",
-      "quote": "옷장에서도 쓰고 주방에서도 써요. 공간활용력 갑, 튼튼함까지.",
+      "quote": "옷장 위 빈 공간에 한 단 더. 튼튼해서 주방에도.",
       "price": "15,700원~",
+      "image": "assets/p02.jpg",
       "link": "https://link.coupang.com/a/iSb6fbukLs",
-      "blog": "https://blog.naver.com/hachohee/224486750426",
-      "opens": null,
-      "note": "옷장 폭 재고 옵션 고르기 · 링크는 화이트6번 기준",
-      "blogUrl": ""
+      "keywords": ["적층", "길이조절", "레이어드", "선반", "옷장", "정리"]
     },
     {
-      "id": 9,
-      "name": "앞날창창 외집게 바지 치마 논슬립 옷걸이",
+      "num": 3,
+      "name": "앞날창창 논슬립 옷걸이",
       "option": "아이보리, 30개",
       "category": "living",
-      "tags": [
-        "논슬립",
-        "30개 대용량",
-        "주름 방지"
-      ],
-      "emoji": "👖",
-      "tone": "peach",
-      "quote": "옷장 정리 수납 갑. 바지 반 접어서 넣으니 깔끔하고 주름도 덜 져요.",
+      "quote": "바지 반 접어 걸면 주름 없이 깔끔, 30개 대용량.",
       "price": "5,270원",
+      "image": "assets/p03.jpg",
       "link": "https://link.coupang.com/a/iSb8vbjm2u",
-      "blog": "https://blog.naver.com/hachohee/224486750426",
-      "opens": null,
-      "note": null,
-      "blogUrl": ""
+      "keywords": ["외집게", "바지", "치마", "옷장", "정리", "논슬립"]
     },
     {
-      "id": 4,
-      "name": "얼띵스 더 커지고 물자국없는 초극세사 다용도 매직 행주",
+      "num": 4,
+      "name": "얼띵스 매직 행주",
       "option": "30x40, 5개",
       "category": "living",
-      "tags": [
-        "수전 물때",
-        "초극세사",
-        "얼룩 없음"
-      ],
-      "emoji": "🧽",
-      "tone": "mint",
-      "quote": "매직행주 이름값. 수전 물때 싹 지우고, 행주로 써도 얼룩이 안 남아요.",
+      "quote": "수전 물때 싹. 행주로 써도 얼룩이 안 남아요.",
       "price": "9,900원",
+      "image": "assets/p04.jpg",
       "link": "https://link.coupang.com/a/iSb9DXYonc",
-      "blog": "https://blog.naver.com/hachohee/224486750426",
-      "opens": null,
-      "note": null,
-      "blogUrl": ""
+      "keywords": ["행주", "초극세사", "매직", "주방", "물때", "청소"]
     },
     {
-      "id": 16,
-      "name": "비비고 순살 임연수 구이",
+      "num": 5,
+      "name": "비비고 순살 임연수구이",
       "option": "60g 4개",
       "category": "table",
-      "tags": [
-        "가시 손질 없음",
-        "육아템",
-        "쟁여두기"
-      ],
-      "emoji": "🐟",
-      "tone": "sky",
-      "quote": "가시 안 발라줘도 돼서 육아템. 촉촉하고 맛있어서 쟁여놓고 먹어요.",
+      "quote": "가시 손질 없이 아이 반찬 끝. 촉촉해서 쟁여둬요.",
       "price": "19,700원",
+      "image": "assets/p05.jpg",
       "link": "https://link.coupang.com/a/iSd1jyhjG0",
-      "blog": null,
-      "opens": null,
-      "note": "2탄 · 밥상 치트키",
-      "blogUrl": ""
+      "keywords": ["생선구이", "반찬", "육아", "냉동", "간편"]
     },
     {
-      "id": 14,
-      "name": "하림 닭다리살 냉장",
-      "option": "600g",
+      "num": 6,
+      "name": "하림 닭다리살",
+      "option": "냉장 600g",
       "category": "table",
-      "tags": [
-        "만능 반찬",
-        "굽기·삶기·찌기",
-        "냉장"
-      ],
-      "emoji": "🍗",
-      "tone": "cream",
-      "quote": "반찬 없을 때 최고. 굽고 삶고 찌고, 닭국 닭죽 닭구이 다 돼요.",
+      "quote": "굽고 삶고 찌고 다 되는 만능 닭다리살.",
       "price": "12,160원",
+      "image": "assets/p06.jpg",
       "link": "https://link.coupang.com/a/iSd5erwhrM",
-      "blog": null,
-      "opens": null,
-      "note": "2탄 · 밥상 치트키",
-      "blogUrl": ""
+      "keywords": ["닭고기", "반찬", "냉장", "닭죽", "닭국"]
     },
     {
-      "id": 6,
-      "name": "쿠라콘 염장다시마 시오콘부",
-      "option": "130g",
+      "num": 7,
+      "name": "쿠라콘 염장다시마",
+      "option": "시오콘부 130g",
       "category": "table",
-      "tags": [
-        "양배추 털기",
-        "볶음밥",
-        "닭다리살 궁합"
-      ],
-      "emoji": "🌿",
-      "tone": "sage",
-      "quote": "여기저기 다 써요. 이걸로 양배추 털기, 닭다리살 구이, 볶음밥은 완밥.",
+      "quote": "양배추 털기부터 볶음밥까지, 냉장고 필수템.",
       "price": "8,270원",
+      "image": "assets/p07.jpg",
       "link": "https://link.coupang.com/a/iSd8dbRVf2",
-      "blog": null,
-      "opens": null,
-      "note": "품절 시 판매 중인 대체 상품으로 안내",
-      "blogUrl": ""
+      "keywords": ["다시마", "시오콘부", "양배추", "볶음밥", "반찬"]
     },
     {
-      "id": 12,
+      "num": 8,
       "name": "복음자리 원스틱 딸기잼",
       "option": "30p, 600g",
       "category": "table",
-      "tags": [
-        "한 팩씩",
-        "위생 걱정 없음",
-        "믿먹"
-      ],
-      "emoji": "🍓",
-      "tone": "blush",
-      "quote": "병 딸기잼은 위생 걱정인데, 한 팩씩 쓰니까 깔끔해요. 괜히 더 먹어서 가책 느낄 일도 없고요.",
+      "quote": "한 팩씩 짜 쓰니 위생 걱정 없어요. 믿먹.",
       "price": "9,370원",
+      "image": "assets/p08.jpg",
       "link": "https://link.coupang.com/a/iSd96I2bqS",
-      "blog": null,
-      "opens": null,
-      "note": "2탄 · 밥상 치트키",
-      "blogUrl": ""
+      "keywords": ["딸기잼", "잼", "스틱", "빵", "간식"]
     },
     {
-      "id": 13,
-      "name": "에이와 헬로키티 마쉬멜로우 초콜릿맛",
+      "num": 9,
+      "name": "헬로키티 마쉬멜로우",
       "option": "30p, 120g",
       "category": "table",
-      "tags": [
-        "주머니템",
-        "진한 초코",
-        "작고 귀여움"
-      ],
-      "emoji": "🍫",
-      "tone": "peach",
-      "quote": "마시멜로 살도 덜 찌고 초코는 진해요. 작고 귀여워서 주머니템.",
+      "quote": "마시멜로는 가볍고 초코는 진해요. 주머니템.",
       "price": "8,900원",
+      "image": "assets/p09.jpg",
       "link": "https://link.coupang.com/a/iSeiKvtos0",
-      "blog": null,
-      "opens": null,
-      "note": "2탄 · 밥상 치트키",
-      "blogUrl": ""
+      "keywords": ["마시멜로", "초콜릿", "헬로키티", "간식", "주머니"]
     },
     {
-      "id": 5,
-      "name": "메이지 다케노코 마을 초코과자",
+      "num": 10,
+      "name": "메이지 다케노코 초코과자",
       "option": "70g × 10개",
       "category": "table",
-      "tags": [
-        "초코과자 원픽",
-        "찐하고 든든",
-        "주머니 간식"
-      ],
-      "emoji": "🍪",
-      "tone": "cream",
-      "quote": "초코과자 중에 제일 맛있어요. 좀 미안하지만 초코송이 이김. 찐하고 든든해요.",
+      "quote": "초코과자 원픽. 찐하고 든든해요.",
       "price": "26,350원",
+      "image": "assets/p10.jpg",
       "link": "https://link.coupang.com/a/iSeooRAGqa",
-      "blog": null,
-      "opens": null,
-      "note": "3탄 · 겨울 힐링템",
-      "blogUrl": ""
+      "keywords": ["초코과자", "다케노코", "죽순마을", "간식", "과자"]
     },
     {
-      "id": 11,
-      "name": "비타민마을 모노밀 추억의 자판기 우유맛 저당스틱",
+      "num": 11,
+      "name": "비타민마을 모노밀",
+      "option": "자판기 우유맛 저당스틱",
       "category": "table",
-      "tags": [
-        "저당",
-        "달달·고소",
-        "선물용"
-      ],
-      "emoji": "🥛",
-      "tone": "sky",
-      "quote": "추운 겨울 내 마음 안식템. 달달하고 고소하고 차분해져요. 저당이라 안심.",
+      "quote": "달달·고소한 우유맛. 저당이라 마음 편해요.",
       "price": null,
+      "image": "assets/p11.jpg",
       "link": "https://link.coupang.com/a/iSemXKAdJR",
-      "blog": null,
-      "opens": null,
-      "note": "3탄 · 겨울 힐링템",
-      "blogUrl": ""
+      "keywords": ["우유", "저당", "스틱", "선물", "음료"]
     },
     {
-      "id": 10,
-      "name": "올리타리아 엑스트라버진 올리브유",
-      "option": "1L",
+      "num": 12,
+      "name": "올리타리아 올리브유",
+      "option": "엑스트라버진 1L",
       "category": "table",
-      "tags": [
-        "가성비",
-        "안 아끼고 쓰는 기름"
-      ],
-      "emoji": "🫒",
-      "tone": "sage",
-      "quote": "올리브유 비싼데 이건 가성비 좋아서 안 아끼고 써요. 건강에도 좋다니 안심.",
+      "quote": "가성비 좋아서 안 아끼고 쓰는 올리브유.",
       "price": null,
+      "image": "assets/p12.jpg",
       "link": "https://link.coupang.com/a/iSeDbzIr2i",
-      "blog": null,
-      "opens": null,
-      "note": "4탄 · 주방 꿀템",
-      "blogUrl": ""
+      "keywords": ["올리브유", "기름", "주방", "요리"]
     },
     {
-      "id": 3,
-      "name": "와사도 자석 마그네틱 속눈썹",
+      "num": 13,
+      "name": "와사도 자석 속눈썹",
       "option": "1호",
       "category": "care",
-      "tags": [
-        "탈부착",
-        "연장 부작용 없음",
-        "휴대"
-      ],
-      "emoji": "👁️",
-      "tone": "blush",
-      "quote": "속눈썹 연장하면 원래 속눈썹이 빠지는데, 그런 부작용 없이 어디서든 탈부착. 뭉침 없이 균일해서 무난하고 좋아요.",
+      "quote": "연장 없이 붙였다 뗐다. 뭉침 없이 균일해요.",
       "price": "48,900원",
+      "image": "assets/p13.jpg",
       "link": "https://link.coupang.com/a/iSeAFfKxSS",
-      "blog": null,
-      "opens": null,
-      "note": "4탄 · 파우치·뷰티 꿀템",
-      "blogUrl": ""
+      "keywords": ["속눈썹", "마그네틱", "자석", "뷰티", "화장"]
     },
     {
-      "id": 7,
-      "name": "휴대용 손톱깎이 키링 미니 접이식",
+      "num": 14,
+      "name": "휴대용 손톱깎이 키링",
       "option": "스테인리스 실버 캣",
       "category": "care",
-      "tags": [
-        "파우치템",
-        "여행용",
-        "키링"
-      ],
-      "emoji": "🐱",
-      "tone": "peach",
-      "quote": "깔끔녀 필수템. 파우치에 넣어 다니면 최고, 해외여행에서도 잘 써요.",
+      "quote": "파우치에 쏙, 여행에서도 잘 썼어요.",
       "price": "8,820원",
+      "image": "assets/p14.jpg",
       "link": "https://link.coupang.com/a/iSeBY9zUtM",
-      "blog": null,
-      "opens": null,
-      "note": "4탄 · 파우치 꿀템",
-      "blogUrl": ""
+      "keywords": ["손톱깎이", "키링", "파우치", "여행", "미니"]
     },
     {
-      "id": 1,
-      "name": "고쿠요 하리낙스 심이 필요없는 스테플러",
+      "num": 15,
+      "name": "고쿠요 하리낙스 스테플러",
       "option": "10매용, 페일화이트",
       "category": "care",
-      "tags": [
-        "심 없는 스테플러",
-        "아이 안전",
-        "친환경"
-      ],
-      "emoji": "📎",
-      "tone": "cream",
-      "quote": "심 따로 살 필요가 없고, 아이가 만져도 안 위험해요. 심이 굴러다녀서 다칠 일도 없고요.",
+      "quote": "심이 필요 없어서 아이가 만져도 안전해요.",
       "price": "18,310원",
+      "image": "assets/p15.jpg",
       "link": "https://link.coupang.com/a/iSepzrvBsW",
-      "blog": null,
-      "opens": null,
-      "note": "4탄 · 문구 꿀템",
-      "blogUrl": ""
+      "keywords": ["스테플러", "문구", "하리낙스", "심없는"]
     },
     {
-      "id": 15,
-      "name": "루아베 워싱 누빔 플롯 매트리스 패드",
+      "num": 16,
+      "name": "루아베 누빔 매트리스패드",
+      "option": "워싱 누빔 플롯",
       "category": "care",
-      "tags": [
-        "이불 안 밀림",
-        "막 뒹굴기",
-        "뽀송"
-      ],
-      "emoji": "🛏️",
-      "tone": "mint",
-      "quote": "자고 일어날 때 이불 밀리면 스트레스인데 구원템. 막 뒹굴어도 걱정 없고, 빨아서 말려 깔면 뽀송해요.",
+      "quote": "막 뒹굴어도 이불이 안 밀려요. 빨면 뽀송.",
       "price": "22,320원",
+      "image": "assets/p16.jpg",
       "link": "https://link.coupang.com/a/iSelJo2zmK",
-      "blog": null,
-      "opens": null,
-      "note": "3탄 · 침대 힐링템",
-      "blogUrl": ""
+      "keywords": ["매트리스", "패드", "이불", "침대", "누빔"]
     },
     {
-      "id": 17,
-      "name": "오아 바디케어 무선 안마기 쿠션형",
+      "num": 17,
+      "name": "오아 무선 안마기",
+      "option": "바디케어 쿠션형",
       "category": "care",
-      "tags": [
-        "허벅지 마사지",
-        "무선",
-        "쿠션형"
-      ],
-      "emoji": "💆",
-      "tone": "blush",
-      "quote": "안마의자에 있으면 놀아달라는 아들 피해서, 침대에서 엉덩이 밑에 깔고 누우면 극락. 허벅지 마사지 최고.",
+      "quote": "침대에서 허벅지 마사지. 이게 힐링이지.",
       "price": null,
+      "image": "assets/p17.jpg",
       "link": "https://link.coupang.com/a/iSekzRzr7Q",
-      "blog": null,
-      "opens": null,
-      "note": "3탄 · 침대 힐링템",
-      "blogUrl": ""
+      "keywords": ["안마기", "마사지", "무선", "쿠션", "힐링"]
     }
   ]
 }

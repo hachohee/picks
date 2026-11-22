@@ -3,391 +3,255 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>집순이보물창고 · 직접 써 보고 살아남은 찐템 모음집 🛒</title>
-<meta name="description" content="집순이보물창고(@jibsooni.box) · 직접 사서 써 보고 살아남은 살림·밥상·힐링 찐템 17가지. 한 줄 찐후기와 쿠팡 링크를 한 페이지에.">
-<meta name="theme-color" content="#FAF5EC">
+<title>집순이보물창고 · 찐템 17 모음집</title>
+<meta name="description" content="집순이보물창고(@jibsooni.box) · 직접 사서 써 보고 남은 살림·밥상·힐링 찐템 17가지. 사진과 번호로 바로 찾아 쿠팡에서 보세요.">
+<meta name="theme-color" content="#ffffff">
 <meta property="og:type" content="website">
-<meta property="og:title" content="집순이보물창고 · 직접 써 보고 살아남은 찐템 모음집 🛒">
-<meta property="og:description" content="집순이보물창고 · 광고 문구 말고, 내 돈 주고 사서 쓴 것만. 살림·밥상·힐링 17가지 찐후기.">
+<meta property="og:title" content="집순이보물창고 · 찐템 17 모음집">
+<meta property="og:description" content="내 돈 주고 사서 쓴 것만. 살림·밥상·힐링 찐템 17가지 한 줄 후기와 쿠팡 링크.">
 <meta property="og:url" content="https://jibsooni-box.pages.dev/">
 <meta property="og:image" content="https://jibsooni-box.pages.dev/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://jibsooni-box.pages.dev/og.png">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A6%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/profile.png">
 <style>
   :root{
-    --ivory:#FAF5EC;
-    --paper:#FFFCF6;
-    --ink:#33302B;
-    --ink-soft:#6C6257;
-    --ink-mute:#9A8B7B;
-    --line:#EFE4D4;
-    --coral:#D56A4C;
-    --coral-deep:#C1553A;
-    --sage:#8CA37F;
-    --shadow:0 2px 12px rgba(140,110,80,.06);
+    --ink:#1e1e1e;
+    --sub:#767676;
+    --sub2:#9a9a9a;
+    --line:#eeeeee;
+    --bg:#ffffff;
+    --bg-soft:#f7f7f7;
+    --brand:#e8553f;
+    --brand-soft:#fff2ef;
+    --radius:12px;
   }
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html{-webkit-text-size-adjust:100%}
   body{
     margin:0;
-    background:#F1E7D9;
+    background:var(--bg);
     color:var(--ink);
-    font-family:'Gowun Dodum','Noto Sans KR','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","맑은 고딕","Noto Sans KR",system-ui,sans-serif;
     font-size:15px;
     line-height:1.5;
     letter-spacing:-.01em;
     word-break:keep-all;
     overflow-wrap:anywhere;
   }
-  .page{
-    position:relative;
-    max-width:470px;
-    margin:0 auto;
-    min-height:100vh;
-    background:var(--ivory);
-    box-shadow:0 0 60px rgba(130,100,70,.10);
-    overflow:hidden;
-  }
+  .page{max-width:860px;margin:0 auto}
 
   /* ---------- header ---------- */
-  .hero{
-    position:relative;
-    padding:26px 22px 16px;
-    text-align:center;
-    background:
-      radial-gradient(120% 80% at 12% 0%, rgba(250,224,206,.85) 0%, rgba(250,224,206,0) 55%),
-      radial-gradient(110% 70% at 96% 6%, rgba(222,234,214,.75) 0%, rgba(222,234,214,0) 58%),
-      var(--ivory);
-  }
+  .top{padding:24px 20px 12px;text-align:center}
   .avatar{
-    width:70px;height:70px;margin:0 auto 11px;
-    display:grid;place-items:center;
-    font-size:31px;line-height:1;
+    width:78px;height:78px;margin:0 auto 10px;display:block;
     border-radius:50%;
-    background:linear-gradient(150deg,#FFE9D4,#F9CFB7 70%,#F3C2A8);
-    border:3px solid #FFFDF8;
-    box-shadow:0 6px 18px rgba(197,120,86,.22);
-  }
-  .badge{
-    display:inline-block;
-    margin:0 0 8px;
-    font-size:10px;
-    letter-spacing:.14em;
-    color:#A8907A;
-    font-weight:400;
+    object-fit:cover;
+    background:var(--bg-soft);
+    border:1px solid var(--line);
+    box-shadow:0 3px 12px rgba(0,0,0,.06);
   }
   h1.brand{
-    margin:0;
-    font-family:'Gowun Batang','Noto Serif CJK KR',serif;
-    font-size:26px;
-    line-height:1.3;
-    font-weight:700;
-    letter-spacing:-.05em;
-    color:#2E2A25;
+    margin:0;font-size:21px;line-height:1.3;font-weight:800;letter-spacing:-.045em;color:#111;
   }
-  .handle{
-    margin:4px 0 0;
-    font-size:11.5px;
-    color:var(--ink-mute);
-    letter-spacing:.02em;
+  .handle{margin:3px 0 0;font-size:12.5px;color:var(--sub2);letter-spacing:0}
+  .intro{margin:7px 0 0;font-size:12.5px;line-height:1.6;color:var(--sub)}
+  .guide{
+    margin:11px auto 0;max-width:340px;
+    font-size:13.5px;line-height:1.5;font-weight:700;color:#3a3a3a;letter-spacing:-.02em;
   }
-  .tagline{
-    margin:11px auto 0;
-    font-family:inherit;
-    max-width:320px;
-    font-size:14px;
-    line-height:1.55;
-    font-weight:700;
-    text-wrap:balance;
-    letter-spacing:-.025em;
-    color:#4B4238;
-  }
-  .intro{
-    margin:7px auto 0;
-    max-width:300px;
-    font-size:12.6px;
-    line-height:1.7;
-    color:var(--ink-soft);
-    text-wrap:balance;
-  }
-  .chips{
-    display:flex;flex-wrap:wrap;justify-content:center;gap:8px;
-    margin:15px 0 0;
-  }
-  .chip{
+  .insta{
     display:inline-flex;align-items:center;gap:5px;
-    padding:9px 14px;
-    border-radius:999px;
-    background:#FFFDF8;
-    border:1px solid #EADFCF;
-    box-shadow:0 1px 3px rgba(150,120,90,.07);
-    color:#4C443B;
-    font-size:12px;
-    text-decoration:none;
-    transition:transform .12s ease, box-shadow .12s ease;
+    margin:9px 0 0;padding:6px 11px;
+    border:1px solid var(--line);border-radius:999px;background:#fff;
+    color:#4a4a4a;font-size:12px;text-decoration:none;
   }
-  .chip:active{transform:scale(.97)}
-  .chip .em{font-size:10px;line-height:1}
+  .insta:active{background:var(--bg-soft)}
 
-  .stats{
-    display:flex;justify-content:center;align-items:center;gap:0;
-    margin:14px auto 0;
-    padding-top:12px;
-    max-width:330px;
-    border-top:1px dashed #E7DAC6;
+  .disclosure-top{
+    margin:0 20px;padding:0;
+    font-size:10.5px;line-height:1.5;color:#a0a0a0;letter-spacing:0;text-align:center;
   }
-  .stats div{
-    flex:1;display:flex;flex-direction:column;align-items:center;gap:1px;
-    border-right:1px solid #EDE2D2;
-  }
-  .stats div:last-child{border-right:0}
-  .stats b{
-    font-size:16px;font-weight:700;color:var(--coral-deep);letter-spacing:0;
-    font-family:'Gowun Batang',serif;
-  }
-  .stats span{font-size:10.5px;color:#8C7F70;letter-spacing:0}
 
-  /* ---------- filters ---------- */
-  .filters{
-    position:sticky;top:0;z-index:20;
+  /* ---------- sticky search + tabs ---------- */
+  .sticky{
+    position:sticky;top:0;z-index:30;
+    background:rgba(255,255,255,.97);
+    -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+    padding:10px 14px 0;
+  }
+  .search{position:relative}
+  .search svg{
+    position:absolute;left:12px;top:50%;transform:translateY(-50%);
+    width:16px;height:16px;stroke:#9a9a9a;fill:none;stroke-width:2;pointer-events:none;
+  }
+  .search input{
+    width:100%;height:44px;
+    padding:0 38px 0 35px;
+    border:1px solid #e4e4e4;border-radius:10px;
+    background:var(--bg-soft);
+    color:var(--ink);
+    font-family:inherit;font-size:16px;letter-spacing:-.01em;
+    outline:none;-webkit-appearance:none;appearance:none;
+  }
+  .search input::placeholder{color:#a8a8a8;font-size:13.5px}
+  .search input:focus{border-color:#d6d6d6;background:#fff;box-shadow:0 0 0 3px rgba(232,85,63,.08)}
+  .search input::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+  .clear{
+    position:absolute;right:8px;top:50%;transform:translateY(-50%);
+    width:26px;height:26px;display:none;place-items:center;
+    border:0;border-radius:50%;background:#e6e6e6;color:#767676;
+    font-size:14px;line-height:1;cursor:pointer;
+  }
+  .clear.on{display:grid}
+
+  .tabs{
     display:flex;gap:7px;
-    padding:12px 18px;
-    overflow-x:auto;
-    scrollbar-width:none;
-    -webkit-overflow-scrolling:touch;
-    background:linear-gradient(180deg,rgba(250,245,236,.98) 62%,rgba(250,245,236,.90) 100%);
-    -webkit-backdrop-filter:blur(6px);
-    backdrop-filter:blur(6px);
-    -webkit-mask-image:linear-gradient(90deg,#000 0,#000 92%,rgba(0,0,0,.25) 100%);
-    mask-image:linear-gradient(90deg,#000 0,#000 92%,rgba(0,0,0,.25) 100%);
-    border-bottom:1px solid rgba(235,224,208,.6);
+    margin:0 -14px;padding:10px 14px 11px;
+    overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;
   }
-  .filters::-webkit-scrollbar{display:none}
+  .tabs::-webkit-scrollbar{display:none}
   .tab{
-    flex:0 0 auto;
-    display:inline-flex;align-items:center;gap:4px;
-    padding:8px 12px;
-    border-radius:999px;
-    border:1px solid #E8DCCB;
-    background:#FFFDF8;
-    color:#6D6154;
-    font-family:inherit;
-    font-size:12.5px;
-    letter-spacing:-.01em;
-    cursor:pointer;
-    transition:background .16s ease,color .16s ease,box-shadow .16s ease,transform .12s ease;
+    flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;
+    padding:8px 13px;
+    border:1px solid #e6e6e6;border-radius:999px;background:#fff;
+    color:#555;font-family:inherit;font-size:13px;letter-spacing:-.02em;
+    cursor:pointer;white-space:nowrap;
+    transition:background .15s,color .15s,border-color .15s;
   }
-  .tab:active{transform:scale(.97)}
-  .tab .cnt{font-size:10.5px;color:#AE9F8D;letter-spacing:0}
+  .tab .cnt{font-size:11px;color:#a0a0a0;letter-spacing:0}
   .tab[aria-selected="true"]{
-    background:linear-gradient(135deg,#D96C4D,#C7573B);
-    border-color:transparent;
-    color:#FFF8F2;
-    font-weight:700;
-    box-shadow:0 4px 12px rgba(197,87,59,.26);
+    background:var(--brand);border-color:var(--brand);color:#fff;font-weight:700;
   }
-  .tab[aria-selected="true"] .cnt{color:rgba(255,248,242,.8)}
+  .tab[aria-selected="true"] .cnt{color:rgba(255,255,255,.82)}
 
-  /* ---------- cards ---------- */
-  .list{
-    display:flex;flex-direction:column;gap:13px;
-    padding:16px 16px 8px;
+  /* ---------- result line ---------- */
+  .result{
+    margin:0;padding:12px 16px 2px;
+    font-size:12px;color:var(--sub);letter-spacing:0;
+  }
+  .result b{color:var(--ink);font-weight:700}
+
+  /* ---------- grid ---------- */
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:20px 10px;
+    padding:10px 14px 26px;
     min-height:40vh;
   }
   .card{
-    display:grid;
-    grid-template-columns:64px minmax(0,1fr);
-    column-gap:12px;row-gap:10px;
-    padding:14px;
-    border-radius:20px;
-    background:var(--paper);
-    border:1px solid #F0E5D5;
-    box-shadow:var(--shadow);
-    animation:rise .34s cubic-bezier(.22,.7,.35,1) both;
+    display:flex;flex-direction:column;
+    text-decoration:none;color:inherit;
+    -webkit-tap-highlight-color:transparent;
   }
-  @keyframes rise{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
-  @media (prefers-reduced-motion:reduce){
-    .card{animation:none}
-    *{transition:none!important}
+  .thumb{
+    position:relative;
+    aspect-ratio:1/1;
+    border:1px solid var(--line);border-radius:var(--radius);
+    background:#fff;overflow:hidden;
   }
-  .tile{
-    width:64px;height:64px;
-    border-radius:17px;
-    display:grid;place-items:center;
-    font-size:28px;line-height:1;
-    box-shadow:inset 0 0 0 1px rgba(255,255,255,.55);
+  .thumb img{
+    width:100%;height:100%;display:block;object-fit:cover;
+    transition:transform .25s ease;
   }
-  .tone-cream{background:linear-gradient(150deg,#FBEEDB,#F5DFC2)}
-  .tone-sage{background:linear-gradient(150deg,#EBF1E3,#DAE5D0)}
-  .tone-peach{background:linear-gradient(150deg,#FCE8DC,#F7D3C2)}
-  .tone-mint{background:linear-gradient(150deg,#E4F1EB,#D1E6DB)}
-  .tone-sky{background:linear-gradient(150deg,#E8EFF6,#D6E2EE)}
-  .tone-blush{background:linear-gradient(150deg,#FBE8E7,#F5D4D3)}
-
+  .card:active .thumb img{transform:scale(.985)}
+  .thumb.err{background:linear-gradient(150deg,#faf3ec,#f2e7db)}
+  .num{
+    position:absolute;top:7px;left:7px;
+    padding:2px 6px;border-radius:6px;
+    background:rgba(255,255,255,.94);
+    border:1px solid #f1dcd7;
+    color:var(--brand);font-size:11px;font-weight:800;letter-spacing:0;line-height:1.4;
+    box-shadow:0 1px 4px rgba(0,0,0,.07);
+  }
+  .body{display:flex;flex-direction:column;flex:1;padding:9px 2px 0}
   .name{
-    margin:1px 0 0;
-    font-size:14.5px;
-    line-height:1.42;
-    font-weight:700;
-    letter-spacing:-.025em;
-    color:#2F2B26;
-  }
-  .option{
-    margin:3px 0 0;
-    font-size:11px;
-    color:#948575;
-    letter-spacing:0;
-  }
-  .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px}
-  .tag{
-    padding:3px 7px;
-    border-radius:6px;
-    background:#F7F0E4;
-    color:#8B7A65;
-    font-size:10.5px;
-    letter-spacing:-.01em;
-    line-height:1.35;
-  }
-  .tag:first-child{background:#FBEBE3;color:#BC6046}
-
-  .quote{
-    grid-column:1/-1;
     margin:0;
-    padding-left:10px;
-    border-left:2px solid #ECD4BD;
-    font-size:12.8px;
-    line-height:1.66;
-    color:#5D5348;
-    letter-spacing:-.012em;
+    font-size:13px;line-height:1.38;font-weight:700;letter-spacing:-.03em;color:#1b1b1b;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
   }
-
-  .actions{
-    grid-column:1/-1;
-    display:flex;align-items:center;gap:10px;
-    margin-top:0;
+  .name .n{color:var(--brand);font-weight:800;margin-right:2px}
+  .quote{
+    margin:4px 0 0;
+    font-size:11.5px;line-height:1.45;color:#828282;letter-spacing:-.015em;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
   }
   .price{
-    font-size:13.5px;
-    font-weight:700;
-    letter-spacing:-.02em;
-    color:#2F2B26;
+    margin:8px 0 0;
+    font-size:13.5px;font-weight:800;letter-spacing:-.03em;color:#111;
   }
-  .price:empty{display:none}
+  .price.unknown{font-size:11.5px;font-weight:500;color:#a0a0a0}
   .buy{
-    margin-left:auto;
-    display:inline-flex;align-items:center;gap:5px;
-    padding:9px 13px;
-    border-radius:11px;
-    background:linear-gradient(135deg,#D96C4D,#C5553A);
-    color:#FFF8F2;
-    font-size:12.5px;
-    font-weight:700;
-    text-decoration:none;
-    box-shadow:0 4px 10px rgba(197,85,58,.22);
-    transition:transform .12s ease, box-shadow .12s ease;
+    display:flex;align-items:center;justify-content:center;gap:4px;
+    margin-top:8px;height:33px;
+    border-radius:8px;background:var(--brand);
+    color:#fff;font-size:12.5px;font-weight:700;letter-spacing:-.01em;
   }
-  .buy:active{transform:scale(.97);box-shadow:0 2px 6px rgba(197,85,58,.2)}
-  .soon{
-    margin-left:auto;
-    display:inline-flex;align-items:center;gap:5px;
-    padding:8px 11px;
-    border-radius:11px;
-    border:1px dashed #DFD0BB;
-    background:#F5EDE1;
-    color:#8E7E6A;
-    font-size:11.5px;
-    letter-spacing:-.01em;
-    white-space:nowrap;
-  }
-  .soon .hint{font-size:10px;color:#B3A491}
-
-  .meta{
+  .card:active .buy{background:#d34a35}
+  .empty{
     grid-column:1/-1;
-    display:flex;align-items:center;justify-content:space-between;gap:10px;
-    margin-top:-2px;
-    font-size:11px;
-    color:#9A8B7B;
-    letter-spacing:0;
+    padding:52px 10px 60px;text-align:center;color:#9a9a9a;font-size:13px;line-height:1.7;
   }
-  .meta .detail{
-    margin-left:auto;
-    color:#BE6A4F;
-    text-decoration:none;
-    border-bottom:1px solid rgba(190,106,79,.35);
-    padding-bottom:1px;
-    white-space:nowrap;
-  }
-  .meta .note{line-height:1.45}
+  .empty .big{display:block;font-size:26px;margin-bottom:10px}
 
   /* ---------- footer ---------- */
-  .foot{padding:18px 20px 34px;text-align:center}
+  .foot{padding:8px 16px 40px;text-align:center;border-top:1px solid var(--line);margin-top:6px}
   .disclosure{
-    margin:0;
-    padding:13px 14px;
-    border-radius:14px;
-    background:#F5EDE0;
-    border:1px solid #EDE1CF;
-    color:#8D7F6E;
-    font-size:10.6px;
-    line-height:1.65;
-    text-align:left;
-    letter-spacing:0;
+    margin:18px 0 0;padding:12px 13px;border-radius:10px;background:var(--bg-soft);
+    color:#8d8d8d;font-size:10.5px;line-height:1.6;letter-spacing:0;text-align:left;
   }
-  .sign{
-    margin:16px 0 0;
-    font-size:12px;
-    line-height:1.75;
-    color:#9C8E7D;
-  }
-  .updated{
-    margin:10px 0 0;
-    font-size:10px;
-    color:#B5A896;
-    letter-spacing:.02em;
-  }
-  .top{
-    display:inline-block;
-    margin:14px 0 0;
-    font-size:11px;
-    color:#A79885;
-    text-decoration:none;
-    border-bottom:1px dashed #D8C9B5;
-    padding-bottom:2px;
-  }
+  .sign{margin:16px 0 0;font-size:12px;line-height:1.7;color:#8f8f8f}
+  .updated{margin:8px 0 0;font-size:10.5px;color:#b4b4b4;letter-spacing:0}
+  .toplink{display:inline-block;margin:14px 0 0;font-size:11.5px;color:#8f8f8f;text-decoration:none;border-bottom:1px dashed #d9d9d9;padding-bottom:2px}
 
-  @media (min-width:471px){
-    .page{border-left:1px solid #EFE4D4;border-right:1px solid #EFE4D4}
+  @media (min-width:560px){
+    .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px 12px}
+    .name{font-size:13.5px}
+  }
+  @media (min-width:820px){
+    .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none!important}
   }
 </style>
 </head>
 <body>
 <div class="page" id="top">
-  <header class="hero">
-    <div class="avatar" aria-hidden="true">📦</div>
-    <p class="badge" id="badge"></p>
-    <h1 class="brand" id="brand"></h1>
-    <p class="handle" id="handle" hidden></p>
-    <h2 class="tagline" id="title"></h2>
+
+  <header class="top">
+    <img class="avatar" id="avatar" src="assets/profile.png" alt="집순이보물창고 프로필" width="86" height="86">
+    <h1 class="brand" id="brand">집순이보물창고</h1>
+    <p class="handle" id="handle">@jibsooni.box</p>
     <p class="intro" id="intro"></p>
-    <nav class="chips" id="chips" aria-label="블로그 바로가기"></nav>
-    <div class="stats" id="stats"></div>
+    <p class="guide" id="guide"></p>
+    <a class="insta" id="insta" href="https://www.instagram.com/jibsooni.box/" target="_blank" rel="noopener">📷 인스타그램 ↗</a>
   </header>
 
-  <div class="filters" id="filters" role="tablist" aria-label="카테고리"></div>
+  <p class="disclosure-top" id="disclosureTop"></p>
 
-  <main class="list" id="list" aria-live="polite"></main>
+  <div class="sticky">
+    <div class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg>
+      <input id="q" type="search" inputmode="search" enterkeyhint="search" autocomplete="off"
+             placeholder="상품 이름이나 번호로 검색해 보세요 (예: 01, 행주)" aria-label="상품 검색">
+      <button class="clear" id="clear" type="button" aria-label="검색어 지우기">✕</button>
+    </div>
+    <div class="tabs" id="tabs" role="tablist" aria-label="카테고리"></div>
+  </div>
+
+  <p class="result" id="result" aria-live="polite"></p>
+  <main class="grid" id="grid"></main>
 
   <footer class="foot">
     <p class="disclosure" id="disclosure"></p>
     <p class="sign">직접 사서 써 보고 남은 것만.<br>새 찐템은 이 페이지에 계속 추가돼요 🧡</p>
     <p class="updated" id="updated"></p>
-    <a class="top" href="#top">맨 위로 ↑</a>
+    <a class="toplink" href="#top">맨 위로 ↑</a>
   </footer>
 </div>
 
@@ -396,9 +260,10 @@
 (function () {
   var D = window.PICKS_DATA;
   var $ = function (id) { return document.getElementById(id); };
+  var grid = $("grid");
 
-  if (!D || !D.site || !Array.isArray(D.items)) {
-    $("list").innerHTML = '<p style="padding:28px 10px;text-align:center;color:#8d7f6e">찐템 목록을 불러오지 못했어요. 잠시 후 새로고침해 주세요.</p>';
+  if (!D || !Array.isArray(D.items)) {
+    grid.innerHTML = '<p class="empty"><span class="big">🛒</span>목록을 불러오지 못했어요.<br>잠시 후 새로고침해 주세요.</p>';
     return;
   }
 
@@ -407,87 +272,140 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
+  function pad2(n) { return (n < 10 ? "0" : "") + n; }
+  function flat(s) { return String(s == null ? "" : s).toLowerCase().replace(/\s+/g, ""); }
 
   /* ---------- header ---------- */
-  var brand = D.site.brand || "";
-  document.title = (brand ? brand + " · " : "") + D.site.title.replace(/\n/g, " ");
+  var site = D.site || {};
+  var brand = site.brand || "집순이보물창고";
+  document.title = brand + " · 찐템 " + D.items.length + " 모음집";
   $("brand").textContent = brand;
-  if (D.site.account) { $("handle").textContent = D.site.account; $("handle").hidden = false; }
-  $("badge").textContent = D.site.badge || "";
-  $("title").textContent = D.site.title || "";
-  $("intro").textContent = D.site.intro || "";
+  if (site.avatar) $("avatar").src = site.avatar;
+  if (site.account) $("handle").textContent = site.account;
+  $("intro").textContent = site.intro || "";
+  $("guide").textContent = site.guide || "";
+  $("q").placeholder = site.searchPlaceholder || "상품 이름이나 번호로 검색해 보세요";
 
-  $("chips").innerHTML = (D.site.links || []).map(function (l) {
-    return '<a class="chip" href="' + esc(l.url) + '" target="_blank" rel="noopener">' +
-      '<span class="em" aria-hidden="true">' + esc(l.emoji || "·") + "</span>" + esc(l.label) + "</a>";
-  }).join("");
+  var links = site.links || [];
+  if (links.length) {
+    var l = links[0];
+    $("insta").href = l.url;
+    $("insta").textContent = (l.emoji ? l.emoji + " " : "") + l.label + " ↗";
+  } else {
+    $("insta").style.display = "none";
+  }
 
-  var live = D.items.filter(function (it) { return !!it.link; }).length;
-  $("stats").innerHTML =
-    "<div><b>" + D.items.length + "</b><span>찐템</span></div>" +
-    "<div><b>" + live + "</b><span>바로 구매</span></div>" +
-    "<div><b>" + (D.items.length - live) + "</b><span>링크 준비</span></div>";
+  var disclosure = site.disclosure || "";
+  $("disclosureTop").textContent = disclosure;
+  $("disclosure").textContent = disclosure;
+  $("updated").textContent = site.updated ? site.updated.replace(/-/g, ".") + " 기준" : "";
 
-  /* ---------- filters ---------- */
+  /* ---------- categories ---------- */
+  var cats = D.categories || [{ id: "all", label: "전체" }];
   var active = "all";
   function countOf(id) {
     return id === "all" ? D.items.length : D.items.filter(function (it) { return it.category === id; }).length;
   }
-  $("filters").innerHTML = D.categories.map(function (c) {
+  $("tabs").innerHTML = cats.map(function (c) {
     return '<button class="tab" type="button" role="tab" data-cat="' + esc(c.id) + '"' +
-      ' aria-selected="' + (c.id === "all") + '">' + esc(c.label) +
+      ' aria-selected="' + (c.id === active) + '">' + esc(c.label) +
       '<span class="cnt">' + countOf(c.id) + "</span></button>";
   }).join("");
 
-  $("filters").addEventListener("click", function (e) {
+  $("tabs").addEventListener("click", function (e) {
     var btn = e.target.closest(".tab");
     if (!btn) return;
     var next = btn.getAttribute("data-cat");
     if (next === active) return;
     active = next;
-    Array.prototype.forEach.call($("filters").querySelectorAll(".tab"), function (b) {
+    Array.prototype.forEach.call($("tabs").querySelectorAll(".tab"), function (b) {
       b.setAttribute("aria-selected", String(b === btn));
     });
     render();
   });
 
+  /* ---------- search ---------- */
+  var q = "";
+  var input = $("q");
+  var clearBtn = $("clear");
+
+  input.addEventListener("input", function () {
+    q = input.value.trim();
+    clearBtn.classList.toggle("on", q.length > 0);
+    render();
+  });
+  input.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") { input.value = ""; q = ""; clearBtn.classList.remove("on"); render(); }
+  });
+  clearBtn.addEventListener("click", function () {
+    input.value = ""; q = ""; clearBtn.classList.remove("on"); render(); input.focus();
+  });
+
+  function textOf(it) {
+    return flat([
+      it.name, it.option, it.quote,
+      (it.keywords || []).join(" "), (it.tags || []).join(" ")
+    ].join(" "));
+  }
+  function matches(it, fq) {
+    if (!fq) return true;
+    // 숫자만 입력하면 상품 번호로만 찾는다 ("01" → 01번, "1" → 01번, "10" → 10번)
+    if (/^[0-9]+$/.test(fq)) {
+      var n = fq.replace(/^0+(?=.)/, "");
+      return n === String(it.num);
+    }
+    return textOf(it).indexOf(fq) !== -1;
+  }
+
   /* ---------- cards ---------- */
-  function cardHTML(it, i) {
-    var soon = it.opens ? "곧 공개 · " + it.opens : "곧 링크 연결 중";
-    return '<article class="card" style="animation-delay:' + (i * 28) + 'ms">' +
-      '<div class="tile tone-' + esc(it.tone || "cream") + '" aria-hidden="true">' + esc(it.emoji || "🛒") + "</div>" +
-      '<div class="head">' +
-        '<h2 class="name">' + esc(it.name) + "</h2>" +
-        (it.option ? '<p class="option">' + esc(it.option) + "</p>" : "") +
-        '<div class="tags">' + (it.tags || []).map(function (t) {
-          return '<span class="tag">' + esc(t) + "</span>";
-        }).join("") + "</div>" +
+  function cardHTML(it) {
+    var n = pad2(it.num);
+    var price = it.price
+      ? '<p class="price">' + esc(it.price) + "</p>"
+      : '<p class="price unknown">가격은 쿠팡에서 확인</p>';
+    return '<a class="card" href="' + esc(it.link) + '" target="_blank" rel="noopener sponsored"' +
+        ' aria-label="' + esc(n + " " + it.name + " · 쿠팡에서 보기") + '">' +
+      '<div class="thumb">' +
+        '<img src="' + esc(it.image) + '" alt="' + esc(it.name) + '" width="500" height="500" decoding="async">' +
+        '<span class="num">' + n + "</span>" +
       "</div>" +
-      '<p class="quote">' + esc(it.quote) + "</p>" +
-      '<div class="actions">' +
-        '<span class="price">' + esc(it.price || "") + "</span>" +
-        (it.link
-          ? '<a class="buy" href="' + esc(it.link) + '" target="_blank" rel="noopener sponsored">쿠팡에서 보기 <span aria-hidden="true">↗</span></a>'
-          : '<span class="soon">' + esc(soon) + "</span>") +
+      '<div class="body">' +
+        '<h2 class="name"><span class="n">' + n + ".</span> " + esc(it.name) + "</h2>" +
+        '<p class="quote">' + esc(it.quote || "") + "</p>" +
+        price +
+        '<span class="buy">쿠팡 보기 <span aria-hidden="true">↗</span></span>' +
       "</div>" +
-      ((it.note || it.blog)
-        ? '<div class="meta">' +
-            '<span class="note">' + esc(it.note || "") + "</span>" +
-            (it.blog ? '<a class="detail" href="' + esc(it.blog) + '" target="_blank" rel="noopener">상세 후기 →</a>' : "") +
-          "</div>"
-        : "") +
-      "</article>";
+    "</a>";
   }
 
   function render() {
-    var rows = D.items.filter(function (it) { return active === "all" || it.category === active; });
-    $("list").innerHTML = rows.map(cardHTML).join("");
-  }
-  render();
+    var catLabel = "전체";
+    for (var i = 0; i < cats.length; i++) {
+      if (cats[i].id === active) catLabel = cats[i].label;
+    }
+    var fq = flat(q);
+    var rows = D.items.filter(function (it) {
+      if (active !== "all" && it.category !== active) return false;
+      return matches(it, fq);
+    });
 
-  /* ---------- footer ---------- */
-  $("disclosure").textContent = D.site.disclosure || "";
-  $("updated").textContent = D.site.updated ? D.site.updated.replace(/-/g, ".") + " 기준" : "";
+    if (!rows.length) {
+      grid.innerHTML = '<p class="empty"><span class="big">🔍</span>' +
+        (q ? "‘" + esc(q) + "’ 검색 결과가 없어요.<br>다른 번호나 이름으로 찾아보세요." : "아직 상품이 없어요.") +
+        "</p>";
+    } else {
+      grid.innerHTML = rows.map(cardHTML).join("");
+      Array.prototype.forEach.call(grid.querySelectorAll(".thumb img"), function (img) {
+        img.addEventListener("error", function () { img.parentNode.classList.add("err"); });
+      });
+    }
+
+    $("result").innerHTML = q
+      ? "‘" + esc(q) + "’ 검색 결과 <b>" + rows.length + "</b>개"
+      : catLabel + " <b>" + rows.length + "</b>개";
+  }
+
+  render();
 })();
 </script>
 </body>
