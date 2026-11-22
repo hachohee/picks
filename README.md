@@ -3,11 +3,14 @@
 인스타 프로필에 거는 링크 모음 페이지. 직접 사서 써 보고 남은 살림·밥상·힐링 찐템 17개와
 한 줄 찐후기, 쿠팡 파트너스 링크를 한 장에 모았습니다.
 
+**라이브: https://jibsooni-box.pages.dev/** (Cloudflare Pages, 2026-11-22 배포) — 배포 방법은 `DEPLOY.md`.
+
 - `index.html` — 페이지 (CSS/JS 포함, 외부 라이브러리 없음)
 - `items.json` — **여기만 고치면 됩니다.** 상품·후기·가격·링크·카테고리·프로필 문구
 - `items.js` — `build.py`가 items.json에서 자동 생성 (직접 고치지 마세요)
 - `build.py` — `python3 build.py` 로 items.js 재생성
-- `.nojekyll` — GitHub Pages 그대로 서빙
+- `deploy_cloudflare.py` — `python3 deploy_cloudflare.py` → `_deploy/jibsooni-box.zip` (Cloudflare 업로드용)
+- `.nojekyll` — GitHub Pages 그대로 서빙(예비 주소)
 - `og.html` / `og.png` — 카톡·인스타 공유 미리보기 이미지(1200×630)
 
 ## 새 상품 / 파트너스 링크 추가
@@ -16,7 +19,8 @@
    - `opens`: (선택) 링크가 없을 때 버튼에 붙일 날짜. 비우면 "곧 링크 연결 중"으로 표시
    - `category`: `living` | `table` | `care`
 2. `python3 build.py`
-3. commit & push → GitHub Pages 자동 반영
+3. `python3 deploy_cloudflare.py` → Cloudflare 대시보드에서 `_deploy/jibsooni-box.zip` 업로드(자세한 순서는 `DEPLOY.md`)
+4. (선택) commit & push — GitHub Pages 예비 주소도 함께 갱신
 
 링크만 채울 때는 더 간단합니다:
 `python3 update_links.py 16 https://link.coupang.com/a/xxxx https://blog.naver.com/hachohee/123`

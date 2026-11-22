@@ -1,34 +1,26 @@
-# 배포 방법 (hachohee/picks → https://hachohee.github.io/picks/)
+# 배포 방법 — https://jibsooni-box.pages.dev/ (Cloudflare Pages)
 
-## 왜 아직 안 올라갔나
-픽클의 GitHub 연결에 **저장소 생성 권한이 없어서** `gh repo create`가 403으로 막혔습니다.
-(기존 `church`·`quiz`·`studywithfriends`는 권한이 있지만 새 저장소 만들기만 안 됩니다.)
+집순이보물창고의 **정식 주소는 Cloudflare Pages**입니다. 주소에 `hachohee`가 들어가지 않습니다.
 
-## 1) 저장소만 만들어 주면 (권장, 1분)
-1. https://github.com/new 접속
-2. **Repository name**: `picks`
-3. **Public** 선택
-4. README 등 아무것도 체크하지 않고 **Create repository**
-5. 픽클에게 "picks 만들었어"라고 알려 주기
+- 라이브: **https://jibsooni-box.pages.dev/**
+- Cloudflare 프로젝트명: `jibsooni-box` (계정 hachohee@gmail.com, Direct Upload = Git 연결 없음)
+- 배포 기록: 2026-11-22 09:52(KST) 첫 배포 · 배포 ID `741d4f8b` (https://741d4f8b.jibsooni-box.pages.dev)
 
-→ 그러면 픽클이 이 폴더를 그대로 push하고, Settings → Pages를 켜서
-`https://hachohee.github.io/picks/` 라이브까지 확인합니다.
+## 내용 고칠 때 (상품·링크 추가)
 
-## 2) 직접 올리는 방법 (픽클 없이)
-1. 위처럼 `picks` 저장소를 만든 뒤 **uploading an existing file** 클릭
-2. 아래 4개 파일을 끌어다 놓고 Commit
-   - `index.html` (필수)
-   - `items.js` (필수 — 상품 목록)
-   - `items.json` (나중에 고칠 원본)
-   - `og.png` (공유 미리보기)
-3. **Settings → Pages → Build and deployment**
-   - Source: `Deploy from a branch`
-   - Branch: `main` / `/ (root)` → **Save**
-4. 1~2분 뒤 `https://hachohee.github.io/picks/` 열림
+1. `items.json`만 고친다 → `python3 build.py` (items.js 재생성)
+2. 오늘 날짜의 og:url/og:image는 `https://jibsooni-box.pages.dev/` 그대로 두면 된다.
+3. `python3 deploy_cloudflare.py` → `_deploy/jibsooni-box.zip` 생성
+4. Cloudflare 대시보드에 업로드:
+   1. https://dash.cloudflare.com/ → Workers 및 Pages → `jibsooni-box`
+   2. **배포 생성** → 파일 끌어서 놓기(**전체 내용** = zip 선택) → `_deploy/jibsooni-box.zip`
+   3. **사이트 배포** → 30초 뒤 같은 주소에 반영
+5. 확인: https://jibsooni-box.pages.dev/ 를 열어 카드 개수·쿠팡 링크를 훑는다.
 
-## 3) 앱 권한으로 열기
-https://github.com/apps/pickle/installations/new 에서 저장소 생성(Administration) 권한을 허용하면
-앞으로 이런 페이지를 픽클이 알아서 만들 수 있습니다.
+올리는 파일은 4개뿐이다: `index.html`, `items.js`, `items.json`, `og.png`.
 
-## 나중에 상품·링크 추가할 때
-`items.json`만 고치고 `python3 build.py` → push. (README 참고)
+## 예전 GitHub Pages 주소
+
+`https://hachohee.github.io/picks/` 도 저장소(`hachohee/picks`)에 그대로 살아 있다.
+링크를 공유할 때는 **Cloudflare 주소만** 쓴다. (og:url도 Cloudflare 주소로 맞춰 두었다.)
+GitHub 쪽이 필요 없어지면 저장소 Settings → Pages에서 끄면 된다.
