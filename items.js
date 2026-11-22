@@ -8,9 +8,9 @@ window.PICKS_DATA = {
     "intro": "광고 문구 말고, 내 돈 주고 사서 쓴 것만. 살림 · 밥상 · 힐링 17가지.",
     "links": [
       {
-        "label": "네이버 블로그",
-        "emoji": "🟢",
-        "url": "https://blog.naver.com/hachohee"
+        "label": "인스타그램 @jibsooni.box",
+        "emoji": "📦",
+        "url": "https://www.instagram.com/jibsooni.box/"
       }
     ],
     "disclosure": "이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
@@ -52,7 +52,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSb07OZe1s",
       "blog": "https://blog.naver.com/hachohee/224486750426",
       "opens": null,
-      "note": null
+      "note": null,
+      "blogUrl": ""
     },
     {
       "id": 8,
@@ -71,7 +72,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSb6fbukLs",
       "blog": "https://blog.naver.com/hachohee/224486750426",
       "opens": null,
-      "note": "옷장 폭 재고 옵션 고르기 · 링크는 화이트6번 기준"
+      "note": "옷장 폭 재고 옵션 고르기 · 링크는 화이트6번 기준",
+      "blogUrl": ""
     },
     {
       "id": 9,
@@ -90,7 +92,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSb8vbjm2u",
       "blog": "https://blog.naver.com/hachohee/224486750426",
       "opens": null,
-      "note": null
+      "note": null,
+      "blogUrl": ""
     },
     {
       "id": 4,
@@ -109,7 +112,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSb9DXYonc",
       "blog": "https://blog.naver.com/hachohee/224486750426",
       "opens": null,
-      "note": null
+      "note": null,
+      "blogUrl": ""
     },
     {
       "id": 16,
@@ -128,7 +132,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSd1jyhjG0",
       "blog": null,
       "opens": null,
-      "note": "2탄 · 밥상 치트키"
+      "note": "2탄 · 밥상 치트키",
+      "blogUrl": ""
     },
     {
       "id": 14,
@@ -147,7 +152,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSd5erwhrM",
       "blog": null,
       "opens": null,
-      "note": "2탄 · 밥상 치트키"
+      "note": "2탄 · 밥상 치트키",
+      "blogUrl": ""
     },
     {
       "id": 6,
@@ -166,7 +172,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSd8dbRVf2",
       "blog": null,
       "opens": null,
-      "note": "품절 시 판매 중인 대체 상품으로 안내"
+      "note": "품절 시 판매 중인 대체 상품으로 안내",
+      "blogUrl": ""
     },
     {
       "id": 12,
@@ -185,7 +192,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSd96I2bqS",
       "blog": null,
       "opens": null,
-      "note": "2탄 · 밥상 치트키"
+      "note": "2탄 · 밥상 치트키",
+      "blogUrl": ""
     },
     {
       "id": 13,
@@ -204,7 +212,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSeiKvtos0",
       "blog": null,
       "opens": null,
-      "note": "2탄 · 밥상 치트키"
+      "note": "2탄 · 밥상 치트키",
+      "blogUrl": ""
     },
     {
       "id": 5,
@@ -223,7 +232,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSeooRAGqa",
       "blog": null,
       "opens": null,
-      "note": "3탄 · 겨울 힐링템"
+      "note": "3탄 · 겨울 힐링템",
+      "blogUrl": ""
     },
     {
       "id": 11,
@@ -241,7 +251,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSemXKAdJR",
       "blog": null,
       "opens": null,
-      "note": "3탄 · 겨울 힐링템"
+      "note": "3탄 · 겨울 힐링템",
+      "blogUrl": ""
     },
     {
       "id": 10,
@@ -259,7 +270,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSeDbzIr2i",
       "blog": null,
       "opens": null,
-      "note": "4탄 · 주방 꿀템"
+      "note": "4탄 · 주방 꿀템",
+      "blogUrl": ""
     },
     {
       "id": 3,
@@ -278,7 +290,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSeAFfKxSS",
       "blog": null,
       "opens": null,
-      "note": "4탄 · 파우치·뷰티 꿀템"
+      "note": "4탄 · 파우치·뷰티 꿀템",
+      "blogUrl": ""
     },
     {
       "id": 7,
@@ -297,7 +310,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSeBY9zUtM",
       "blog": null,
       "opens": null,
-      "note": "4탄 · 파우치 꿀템"
+      "note": "4탄 · 파우치 꿀템",
+      "blogUrl": ""
     },
     {
       "id": 1,
@@ -316,7 +330,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSepzrvBsW",
       "blog": null,
       "opens": null,
-      "note": "4탄 · 문구 꿀템"
+      "note": "4탄 · 문구 꿀템",
+      "blogUrl": ""
     },
     {
       "id": 15,
@@ -334,7 +349,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSelJo2zmK",
       "blog": null,
       "opens": null,
-      "note": "3탄 · 침대 힐링템"
+      "note": "3탄 · 침대 힐링템",
+      "blogUrl": ""
     },
     {
       "id": 17,
@@ -352,7 +368,8 @@ window.PICKS_DATA = {
       "link": "https://link.coupang.com/a/iSekzRzr7Q",
       "blog": null,
       "opens": null,
-      "note": "3탄 · 침대 힐링템"
+      "note": "3탄 · 침대 힐링템",
+      "blogUrl": ""
     }
   ]
 };
