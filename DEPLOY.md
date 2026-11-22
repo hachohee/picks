@@ -7,6 +7,7 @@
 - 배포 기록
   - 2026-11-22 09:52(KST) 첫 배포
   - 2026-11-22 10:13(KST) **스토어프론트 개편** — 17개 실제 제품 사진 카드(2열 그리드) + 실시간 검색 + 카테고리 탭
+  - 2026-11-22 16:18(KST) **18~21번 4개 추가** — 21개 카드(밥상 10 · 힐링 7) + OG 이미지 갱신
 
 ## 내용 고칠 때 (상품·링크·사진)
 
@@ -16,14 +17,14 @@
    1. https://dash.cloudflare.com/ → Workers 및 Pages → `jibsooni-box`
    2. **배포 생성** → 파일 끌어서 놓기(**전체 내용** = zip 선택) → `_deploy/jibsooni-box.zip`
    3. **저장 및 배포** → 30초 뒤 같은 주소에 반영
-4. 확인: https://jibsooni-box.pages.dev/ 를 열어 카드 17장·사진·검색·탭을 훑는다.
+4. 확인: https://jibsooni-box.pages.dev/ 를 열어 카드 21장·사진·검색·탭을 훑는다.
 
-올리는 파일(22개): `index.html`, `items.js`, `items.json`, `og.png` + `assets/`(p01~p17.jpg, profile.png)
+올리는 파일(26개): `index.html`, `items.js`, `items.json`, `og.png` + `assets/`(p01~p21.jpg, profile.png)
 
 ## 제품 사진 규격
 
-- `assets/p01.jpg` ~ `assets/p17.jpg` = **01~17번 상품 사진** (500×500 JPEG, 품질 86, 15~80KB)
-- 원본은 `work/coupang_ep1~4/` (ep1 = 01~04, ep2 = 05~09, ep3/ep4 = 10~17)
+- `assets/p01.jpg` ~ `assets/p21.jpg` = **01~21번 상품 사진** (01~17번 500×500 JPEG 품질 86 / 18~21번 쿠팡 원본 492×492 JPEG)
+- 원본은 `work/coupang_ep1~4/` (ep1 = 01~04, ep2 = 05~09, ep3/ep4 = 10~17) · 18~22번 원본·링크는 `work/coupang_links_18_22.md`
 - 사진을 바꿀 때는 같은 이름으로 덮어쓰면 된다. `items.json`의 `"image"` 경로와 번호만 맞추면 됨.
 - 프로필은 `assets/profile.png` (240×240, 원형으로 잘려 보임)
 

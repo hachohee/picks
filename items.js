@@ -4,7 +4,7 @@ window.PICKS_DATA = {
     "brand": "집순이보물창고",
     "account": "@jibsooni.box",
     "avatar": "assets/profile.png",
-    "intro": "내 돈 주고 사서 쓴 것만 · 살림·밥상·힐링 17개",
+    "intro": "내 돈 주고 사서 쓴 것만 · 살림·밥상·힐링 21개",
     "guide": "👇 아래에서 번호나 사진 보고 바로 찾아보세요 👇",
     "searchPlaceholder": "상품 이름이나 번호로 검색해 보세요 (예: 01, 행주)",
     "links": [
@@ -326,6 +326,81 @@ window.PICKS_DATA = {
         "무선",
         "쿠션",
         "힐링"
+      ]
+    },
+    {
+      "num": 18,
+      "name": "스마트폰 목걸이 스트랩 분실방지 넥스트랩",
+      "option": "레인보우 120cm",
+      "category": "care",
+      "quote": "핸드폰 너는 알아서 매달려 있어 내 손은 내 아들 잡을거야. 손 자유 구원템. 잃어버리지도 않고 좋아요.",
+      "price": "17,900원",
+      "image": "assets/p18.jpg",
+      "link": "https://link.coupang.com/a/iSG7VI1jJk",
+      "keywords": [
+        "목걸이",
+        "스트랩",
+        "넥스트랩",
+        "분실방지",
+        "핸드폰",
+        "폰스트랩",
+        "충전케이블"
+      ]
+    },
+    {
+      "num": 19,
+      "name": "설성목장 한우 사골 곰탕 스틱",
+      "option": "140g × 10p, 2개",
+      "category": "table",
+      "quote": "아 오늘 국물 없네? 맹물에 일단 풀어. 달걀 휘휘. 달걀국 나이스! 순대 남은거 있어? 순대국 퍼펙트!",
+      "price": "12,900원",
+      "image": "assets/p19.jpg",
+      "link": "https://link.coupang.com/a/iSG9UFKEUu",
+      "keywords": [
+        "곰탕",
+        "사골",
+        "국물",
+        "한우",
+        "스틱",
+        "간편식",
+        "설성목장"
+      ]
+    },
+    {
+      "num": 20,
+      "name": "행복담기 쏙쏙 훈제 메추리알",
+      "option": "25g × 10개",
+      "category": "table",
+      "quote": "아들아 간식이 없네? 이거 건강하게 먹으렴. 외출시에도 든든하게 하나 쏙!",
+      "price": "13,050원",
+      "image": "assets/p20.jpg",
+      "link": "https://link.coupang.com/a/iSHddb2Yea",
+      "keywords": [
+        "메추리알",
+        "훈제",
+        "간식",
+        "안주",
+        "단백질",
+        "행복담기"
+      ]
+    },
+    {
+      "num": 21,
+      "name": "아임미미 아임 멀티 스틱 듀얼",
+      "option": "001 컨투어링",
+      "category": "care",
+      "quote": "엄마 콧대는 소중하니까. 엄마 턱선도 소중하니까. 간단하게 슥슥! 하이라이터도 있어서 진짜 멀티! 눈 두덩이에 쉐도우로도 써요. 만능템.",
+      "price": "9,600원",
+      "image": "assets/p21.jpg",
+      "link": "https://link.coupang.com/a/iSHsV9BG3w",
+      "keywords": [
+        "아임미미",
+        "멀티스틱",
+        "컨투어링",
+        "하이라이터",
+        "쉐도우",
+        "화장",
+        "뷰티"
       ]
     }
   ]
